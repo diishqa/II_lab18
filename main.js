@@ -91,12 +91,10 @@ let int = Number(strNum);
 let int2 = parseInt("42.5");
 let float = parseFloat("3.14");
 let int3 = + "99"
-
 let bool1 = Boolean(1) ; 
 let bool2 = !!1 ; 
 let bool3 = Boolean(0) ; 
 let bool4 = Boolean("");
-
 console.log("5" +3);
 console.log("5" -3);
 console.log("5" * "2");
