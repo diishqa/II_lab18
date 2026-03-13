@@ -6,23 +6,19 @@ let isStudent = true;
 console.log("Name: ", name);
 console.log("Age: ", age);
 console.log("Is student: ", isStudent);
-
 let value = 10;
 console.log(value);
 value = "Теперь это строка";
 console.log(value);
 value = true;
 console.log(value);
-
-let userName = "Динара";
+let userName = "Диана";
 console.log(`Привет, ${userName}!`);
-
 let price = 99.99;
 let temperature =-15;
 let infiniti = 1/0;
 let notANubmer = 0/0;
 console.log(0.1 + 0.2);
-
 let bigNumber = 900719018481274213n;
 let huge = BigInt("4900490394294453453535");
 let isAlive = true ; 
@@ -70,3 +66,19 @@ persons.age = 18 ;
 persons.city = "Volgograd";
 console.log(persons)
 person = {name: "Dinara"};
+console.log(typeof "текст");
+console.log(typeof 42);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof {});
+console.log(typeof []);
+console.log(typeof function () {});
+let numberx = null ; 
+console.log(numberx === null) ; 
+let newPrice = 67 ;
+console.log(newPrice);
+console.log(typeof newPrice);
+newPrice = "aaaaaaa" ;
+console.log(newPrice);
+console.log(typeof newPrice);
